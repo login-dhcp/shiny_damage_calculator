@@ -46,16 +46,16 @@ export const IdolParameterForm: React.FC = () => {
   };
 
   const deletePreset = () => {
-    if (window.confirm(`「${presetName}」を削除しますか？`)) {
+    if (window.confirm(`「${presetName}」을 삭제하시겠습니까?`)) {
       context.dispatch({type: 'DELETE_PRESET', value: presetName});
     }
   };
 
   return (
     <details className='border p-1'>
-      <summary>アイドルのステータス</summary>
+      <summary>아이돌의 스테이터스</summary>
       <Form.Group className='m-3'>
-        <Form.Control placeholder='プリセットの名称' value={context.state.idolStatusName}
+        <Form.Control placeholder='프리셋 이름' value={context.state.idolStatusName}
           // tslint:disable-next-line: jsx-no-lambda
           onChange={(e: any) => context.dispatch({'type': 'STATUS_NAME', 'value': e.currentTarget.value })} />
       </Form.Group>
@@ -69,7 +69,7 @@ export const IdolParameterForm: React.FC = () => {
         <Button className="d-block mr-3 text-nowrap"
         // tslint:disable-next-line: jsx-no-lambda
         onClick={() => context.dispatch({'type': 'ADD_PRESET', 'value': '' })}
-        disabled={disableAddFlg()}>追加</Button>
+        disabled={disableAddFlg()}>추가</Button>
         <Form.Control as="select" className="mr-3" value={presetName}
           // tslint:disable-next-line: jsx-no-lambda
           onChange={(e: any) => setPresetName(e.currentTarget.value)}>
@@ -79,13 +79,13 @@ export const IdolParameterForm: React.FC = () => {
         </Form.Control>
         <Button className="d-block mr-3 text-nowrap"
           disabled={presetNameList().length === 0}
-          onClick={loadPreset}>読込み</Button>
+          onClick={loadPreset}>불러오기</Button>
         <Button className="d-block mr-3 text-nowrap" variant="warning"
           disabled={presetNameList().length === 0 || (presetNameList().includes(context.state.idolStatusName) && presetName !== context.state.idolStatusName)}
-          onClick={updatePreset}>上書き</Button>
+          onClick={updatePreset}>덮어쓰기</Button>
         <Button className="d-block mr-3 text-nowrap" variant="danger"
           disabled={presetNameList().length === 0}
-          onClick={deletePreset}>削除</Button>
+          onClick={deletePreset}>삭제</Button>
       </Form.Group>
     </details>
   );

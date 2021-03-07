@@ -31,12 +31,12 @@ const DamageResult: React.FC = () => {
 
 	return (<div className='p-3'>
 		<div className='d-flex'>
-			<strong className='text-nowrap mt-2'>通常アピール</strong>
+			<strong className='text-nowrap mt-2'>어필 배율</strong>
 			<FormControl className='m-1' as='select' defaultValue={'' + context.state.cardMultiple} onChange={onChange}>
 			{
 				range(41).map(i => {
 					const val = i + 10;
-					const text = `${val / 10}倍`
+					const text = `${val / 10}배`
 					return (<option key={i} value={'' + val}>{text}</option>);
 				})
 			}
@@ -45,7 +45,7 @@ const DamageResult: React.FC = () => {
 		<table className='table table-responsive text-center table-sm'>
 			<thead>
 				<tr>
-					<th scope='col' rowSpan={2}>{isPC() ? 'アイドル' : 'idol'}</th>
+					<th scope='col' rowSpan={2}>{isPC() ? '아이돌' : 'idol'}</th>
 					<th scope='col' colSpan={2}>Vo</th>
 					<th scope='col' colSpan={2}>Da</th>
 					<th scope='col' colSpan={2}>Vi</th>
@@ -82,11 +82,11 @@ const DamageResult: React.FC = () => {
 			}
 			</tbody>
 		</table>
-		<strong>思い出アピール</strong><br />
+		<strong>오모이데 어필</strong><br />
 		<table className='table table-responsive text-center table-sm'>
 			<thead>
 				<tr>
-					<th scope='col'>判定</th>
+					<th scope='col'>판정</th>
 					<th scope='col'>Vo</th>
 					<th scope='col'>Da</th>
 					<th scope='col'>Vi</th>

@@ -27,15 +27,20 @@ const App: React.FC = () => {
     <AppContext.Provider value={{'state': state, dispatch: (action: IAction) => reduce(state, setState, action)}}>
       <Row>
         <Col className='mx-auto' xs={12} sm={8} md={6}>
-          <h1 className='text-center d-none d-sm-block my-3'>シャニマス火力計算機</h1>
-          <h2 className='text-center d-xs-block d-sm-none my-3'>シャニマス火力計算機</h2>
+          <h1 className='text-center d-none d-sm-block my-3'>샤니마스어필량계산기</h1>
+          <h2 className='text-center d-xs-block d-sm-none my-3'>샤니마스어필량계산기</h2>
           <div className='text-center my-3'>
             Ver.0.7.0
-            <a className='ml-3' href='https://github.com/YSRKEN/shiny_damage_calculator'>GitHubへのリンク</a>
-            <a className='ml-3' href='https://twitter.com/YSRKEN'>作者Twitter</a>
+            <a className='ml-3' href='https://github.com/YSRKEN/shiny_damage_calculator'>GitHub 소스 코드 </a>
+            <a className='ml-3' href='https://twitter.com/YSRKEN'>원저자Twitter</a>
+          </div>
+          <div className='text-center my-3'>
+            Ver.0.1.0
+            <a className='ml-3' href='https://github.com/login-dhcp/shiny_damage_calculator.git'> 한글 번역 Github 소스 코드 </a>
+            번역자 메일:nonamed424@gmail.com
           </div>
           <p className='text-center my-3'>
-            注意：ダメージ計算式には未解明の箇所もあるため<strong>計算誤差が存在します</strong>
+            주의: 어필량 계산식이 완벽히 밝혀지지 않았으므로 <strong>오차가 발생할 수 있습니다.</strong>
           </p>
           <Form className='border'>
             <IdolParameterForm/>

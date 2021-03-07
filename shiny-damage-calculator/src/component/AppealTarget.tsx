@@ -12,11 +12,11 @@ export const AppealTarget: React.FC = () => {
   };
   return (
     <FormGroup className='d-flex m-3'>
-      <FormLabel className='text-nowrap mt-2 mr-1'>アピール対象</FormLabel>
+      <FormLabel className='text-nowrap mt-2 mr-1'>어필 대상</FormLabel>
       <FormControl className='mx-1' as='select' defaultValue={'' + context.state.appealTarget} onChange={onChange}>
-        <option value='vo'>Vo審査員</option>
-        <option value='da'>Da審査員</option>
-        <option value='vi'>Vi審査員</option>
+        <option value='vo'>Vo심사위원</option>
+        <option value='da'>Da심사위원</option>
+        <option value='vi'>Vi심사위원</option>
       </FormControl>
     </FormGroup>
   )

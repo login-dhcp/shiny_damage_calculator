@@ -31,7 +31,7 @@ const BuffValueSingle: React.FC<{type: AppealTarget}> = ({type}) => {
 export const BuffValue: React.FC = () => {
   return (
     <FormGroup className='d-flex m-3'>
-      <FormLabel className='text-nowrap mt-2 mr-1'>補正値</FormLabel>
+      <FormLabel className='text-nowrap mt-2 mr-1'>버프</FormLabel>
       <BuffValueSingle type='vo'/>
       <BuffValueSingle type='da'/>
       <BuffValueSingle type='vi'/>

@@ -6,7 +6,7 @@ import { MemorialOption } from './MemorialOption';
 
 export const OtherOptionForm: React.FC = () => (
   <details className='border p-1'>
-    <summary>その他オプション</summary>
+    <summary>기타 옵션</summary>
     <MemorialOption/>
     <AuditionWeek/>
     <BuffValue/>

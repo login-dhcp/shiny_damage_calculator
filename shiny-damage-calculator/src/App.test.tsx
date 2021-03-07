@@ -110,7 +110,7 @@ it('test5', () => {
     appealTarget: 'vi',
     cardMultiple: 26,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
 console.log(`${calcNormalDamage(state, 4, 'vi', 'perfect')} ${8382}`);
@@ -133,7 +133,7 @@ it('test6', () => {
     appealTarget: 'vi',
     cardMultiple: 26,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
 console.log(`${calcNormalDamage(state, 1, 'vi', 'good')} ${6956}`);
@@ -156,7 +156,7 @@ it('test7', () => {
     appealTarget: 'vi',
     cardMultiple: 25,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
 console.log(`${calcNormalDamage(state, 2, 'vi', 'perfect')} ${8410}`);
@@ -179,7 +179,7 @@ it('test8', () => {
     appealTarget: 'vi',
     cardMultiple: 25,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
 console.log(`${calcNormalDamage(state, 0, 'vi', 'good')} ${9400}`);
@@ -202,7 +202,7 @@ it('test9', () => {
     appealTarget: 'vo',
     cardMultiple: 25,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
 console.log(`${calcNormalDamage(state, 0, 'vi', 'good')} ${4512}`);
@@ -225,7 +225,7 @@ it('test10', () => {
     appealTarget: 'vo',
     cardMultiple: 25,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
 console.log(`${calcMemorialDamage(state, true)[1]} ${4181}`);
@@ -248,7 +248,7 @@ it('test11', () => {
     appealTarget: 'vi',
     cardMultiple: 25,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
   console.log(`${calcNormalDamage(state, 0, 'vi', 'perfect')} ${12464}`);
@@ -271,7 +271,7 @@ it('test12', () => {
     appealTarget: 'vi',
     cardMultiple: 20,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
   console.log(`${calcNormalDamage(state, 3, 'vi', 'perfect')} ${8244}`);
@@ -294,7 +294,7 @@ it('test13', () => {
     appealTarget: 'da',
     cardMultiple: 26,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
   console.log(`${calcNormalDamage(state, 1, 'vi', 'perfect')} ${4781}`);
@@ -317,7 +317,7 @@ it('test14', () => {
     appealTarget: 'vi',
     cardMultiple: 26,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
   console.log(`${calcNormalDamage(state, 1, 'vi', 'perfect')} ${9764}`);
@@ -340,7 +340,7 @@ it('test15', () => {
     appealTarget: 'vi',
     cardMultiple: 25,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
   console.log(`${calcNormalDamage(state, 0, 'vi', 'perfect')} ${11924}`);
@@ -363,7 +363,7 @@ it('test15', () => {
     appealTarget: 'vi',
     cardMultiple: 26,
     pIdolName: '',
-    sIdolName: ['まの', 'まみみ', 'きりこ', 'ちゆき']
+    sIdolName: ['마노', '마미미', '키리코', '치유키']
   }
 // tslint:disable-next-line: no-console
   console.log(`${calcNormalDamage(state, 4, 'vi', 'good')} ${8574}`);
